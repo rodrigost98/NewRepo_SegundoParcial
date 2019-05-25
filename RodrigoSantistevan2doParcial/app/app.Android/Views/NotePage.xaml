@@ -23,8 +23,12 @@
                     Grid.Column="1"
                     Placeholder="Ingrese su nota">
                 </Entry>
+                <ActivityIndicator></ActivityIndicator>
+                <Button
+                    Text="Aceptar">
+                </Button>
 
-               
+
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>
