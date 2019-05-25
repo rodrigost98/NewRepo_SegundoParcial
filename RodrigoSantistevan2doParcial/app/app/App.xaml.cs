@@ -11,7 +11,7 @@ namespace app
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NotePage();
         }
 
         protected override void OnStart()
@@ -29,4 +29,6 @@ namespace app
             // Handle when your app resumes
         }
     }
+
+   
 }

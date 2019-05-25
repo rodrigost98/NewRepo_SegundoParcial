@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="app.Droid.Views.NotesPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*">
+                        </ColumnDefinition>
+                        <ColumnDefinition Width="2*">
+                        </ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                </Grid>
+                <Label
+                            Grid.Row="0"
+                            Grid.Column="0"
+                            Text="Ingrese su nota">
+                 </Label>
+                 <Entry
+                    Grid.Row="0"
+                    Grid.Column="1"
+                    Placeholder="Ingrese su nota">
+                </Entry>
+
+               
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
